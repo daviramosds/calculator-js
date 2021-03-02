@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#result {
+    width: 240px;
+    height: 60px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+#numbersContainer {
+    width: 100%;
+	height: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#numbersContainer button {
+    width: 33.33%;
+    height: 60px;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    opacity: 1;
+}
+
+#numbersContainer button:active {
+    opacity: 0.8;
+}
+
+#numbersContainer .double {
+    width: 66.66%;
+}
+
+#numbersContainer .erase {
+  background-color: #f50057;
+    color: white;
+}
+
+#numbersContainer .equal {
+    background-color: #2979ff;
+    color: white;
+}
